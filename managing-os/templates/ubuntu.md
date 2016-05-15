@@ -32,5 +32,7 @@ want to build.
 Known issues
 ------------
 
+This Ubuntu template is not currently building (2016-05-15) with Qubes 3.1.  Ubuntu 14.04 LTS (Trusty) does not include systemd, which is required by the current Qubes builder and this template hasn't been updated to support either 14.10 (which does include systemd), or the current Ubuntu 16.04 LTS (Xenial). See [this thread](https://groups.google.com/forum/#!searchin/qubes-users/ubuntu$2016.04/qubes-users/w0uZNr8nno8/n1fe6dLtBQAJ).
+
 If you want to help in improving the template, feel free to
 [contribute](/wiki/ContributingHowto).
